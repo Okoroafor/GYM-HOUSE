@@ -214,4 +214,32 @@ h3 {
     font-size: 16px;
 }
 
-/* this is my project */
+/* Footer */
+
+footer {
+    background: #1F2327;
+}
+
+.footer-container {
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container h1 a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container p {
+    font-size: 20px;
+}
+
+.footer-icons a {
+    padding: 0 5px;
+}
