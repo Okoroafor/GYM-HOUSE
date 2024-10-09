@@ -5,7 +5,7 @@
 }
 
 .navbar a {
-    padding: 12px 15px;
+    padding: 12px 12px;
 }
 
 .hero {
@@ -18,6 +18,10 @@
     font-size: 18px;
     height: 55vh;
     width: fit-content;
+}
+
+.hero .content a {
+    font-size: 1rem;
 }
 
 .icons {
