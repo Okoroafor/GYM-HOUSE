@@ -201,11 +201,15 @@ h3 {
     background: rgba(0, 0, 0, 0.92);
 }
 
+.row-3 .container {
+    height: 100%;
+}
+
 .row-3 .container .content {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 60vh;
+    height: 100%;
     width: 100%;
     font-size: 1.8rem;
 }
@@ -242,84 +246,4 @@ footer {
 
 .footer-icons a {
     padding: 0 5px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        height: 120px;
-        padding: 25px;
-    }
-
-    .hero {
-        background: url(Images/IMAGE\ BACKGROUND.png) no-repeat none cover;
-        height: 90vh;
-        overflow: hidden;
-    }
-
-    .hero .content {
-        font-size: large;
-    }
-
-    .icons {
-        display: none;
-    }
-
-    .row {
-        height: fit-content;
-        width: fit-content;
-    }
-
-    .check {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .row-container {
-        flex-direction: column;
-        height: fit-content;
-        width: fit-content;
-        margin: 10px;
-        align-items: center;
-    }
-
-    .text {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .row-2 {
-        width: 100%;
-    }
-
-    .image {
-        margin: 0px;
-    }
-
-    .image img {
-        width: 100%;
-    }
-
-    .text h1 {
-        font-size: 30px;
-    }
-
-    .container-2>div {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        margin: 20px 0;
-    }
-
-    .row-3 {
-        height: 60vh;
-    }
-
-    .footer-container {
-        font-size: 5px;
-    }
 }
